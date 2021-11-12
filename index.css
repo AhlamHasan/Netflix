@@ -42,9 +42,8 @@
   .netflixLogo {
     grid-area: nt;
     object-fit: cover;
-    width: 100px;
-    max-height: 100%;
-    
+    width: 200px;
+    max-height: 200%;
     padding-left: 30px;
     padding-top: 0px;  
   }
@@ -103,18 +102,18 @@
   }
   
   .box a {
-    transition: transform .3s;  
+    transition: transform .2s;  
   }
   
   .box a:hover {
-    transition: transform .3s;
+    transition: transform .2s;
     -ms-transform: scale(1.4);
     -webkit-transform: scale(1.4);  
     transform: scale(1.4);
   }
   
   .box img {
-    border-radius: 2px;
+    border-radius: 5px;
   }
   
   /* LINKS */
@@ -124,10 +123,10 @@
   
   .sub-links ul {
     list-style: none;
-    padding: 0;
+    padding-top: 20px;
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
+   grid-gap: 5px;
+    grid-template-columns: repeat(5, 1fr);
   }
   
   .sub-links a {
@@ -142,6 +141,8 @@
   
   .logos a{
     padding: 10px;
+    align-content: center;
+
   }
   
   .logo {
