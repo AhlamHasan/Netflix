@@ -40,9 +40,7 @@ if (isset($_POST['submit'])) {
 	<title>Login Form</title>
 </head>
 <body>
-<div class="netflixLogo">
-        <a id="logo" href="#home"><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/logo.PNG?raw=true" alt="Logo Image"></a>
-      </div>   
+
 	<div class="container">
 		<form action="" method="POST" class="login-email">
 			<p class="login-text" style="font-size: 2rem; font-weight: 800;">Login</p>
