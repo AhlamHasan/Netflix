@@ -34,6 +34,19 @@ display:block;
     background-size: cover;
     margin-top: 30px;
   }
+
+
+ .Coming-soon-image  {
+    transition: transform .2s;  
+  }
+  
+  .Coming-soon-image :hover {
+    transition: transform .2s;
+    -ms-transform: scale(1.4);
+    -webkit-transform: scale(1.4);  
+    transform: scale(1.4);
+  }
+
   
   /* Place text in the middle of the image */
   .Coming-soon-text {
