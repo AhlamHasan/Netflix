@@ -36,12 +36,9 @@ display:block;
      transition: transform .2s;  
   }
 
-  .Coming-soon-image :hover {
-    transition: transform .2s;
-    -ms-transform: scale(1.4);
-    -webkit-transform: scale(1.4);  
-    transform: scale(1.4);
-  }
+  .Coming-soon-image :hover .image {
+  opacity: 0.3;
+}
 
   
   /* Place text in the middle of the image */
