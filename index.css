@@ -14,13 +14,17 @@
   /* timer */
   h4 {
   text-align: center;
-  font-size: 20px;
-  margin-top: 0px;
-  color: #d6676d;
+  font-size: 30px;
+  margin-top: 50px;
+  color: white;
    }
 
   img {
     max-width: 100%;
+  
+}
+.main-container image :hover {
+    color: #686868;
   }
   
   h1 {
@@ -66,33 +70,7 @@
     padding: 0; 
   }
   
-  .searching {
-  background-color: #222;
-  border-radius: 4px;
-  border-style: none;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
-  font-weight: 700;
-  line-height: 1.5;
-  margin: 0;
-  max-width: none;
-  min-height: 44px;
-  min-width: 10px;
-  outline: none;
-  overflow: hidden;
-  padding: 9px 20px 8px;
-  position: relative;
-  text-align:left;
-  text-transform: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: 100%;
-  }
+  
   .main-nav {
     grid-area: mn;
     padding: 0 30px 0 20px;
