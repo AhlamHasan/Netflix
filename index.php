@@ -7,7 +7,7 @@ session_start();
 error_reporting(0);
 
 if (isset($_SESSION['username'])) {
-    header("Location:index.html");
+    header("Location: index.html");
 }
 
 if (isset($_POST['submit'])) {
@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
 		$_SESSION['username'] = $row['username'];
 		header("Location: index.html");
 	} else {
-		echo "<script>alert(' Email or Password is Wrong.')</script>";
+		echo "<script>alert('Woops! Email or Password is Wrong.')</script>";
 	}
 }
 
@@ -40,7 +40,6 @@ if (isset($_POST['submit'])) {
 	<title>Login Form</title>
 </head>
 <body>
-
 	<div class="container">
 		<form action="" method="POST" class="login-email">
 			<p class="login-text" style="font-size: 2rem; font-weight: 800;">Login</p>
@@ -53,7 +52,7 @@ if (isset($_POST['submit'])) {
 			<div class="input-group">
 				<button name="submit" class="btn">Login</button>
 			</div>
-			<p class="login-register-text">Don't have an account? <a href="register.php">Register Here</a>.</p>
+			<p class="login-register-text">Don't have an account? <a href="register.php">Sign in Here</a>.</p>
 		</form>
 	</div>
 </body>
