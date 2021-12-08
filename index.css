@@ -36,10 +36,7 @@ display:block;
      transition: transform .2s;  
   }
 
-  .Coming-soon-image :hover .image {
-  opacity: 0.3;
-}
-
+ 
   
   /* Place text in the middle of the image */
   .Coming-soon-text {
