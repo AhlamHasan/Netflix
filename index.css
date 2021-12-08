@@ -11,6 +11,12 @@
     line-height: 1.4;
   }
 
+script{
+display:block;
+  
+
+
+}
   /* timer */
   h4 {
   text-align: center;
@@ -73,7 +79,7 @@
   
   .main-nav {
     grid-area: mn;
-    padding: 0 30px 0 20px;
+    aligne-element: center;
   }
   
   .main-nav a {
