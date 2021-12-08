@@ -26,7 +26,7 @@ display:block;
    }
 
 .Coming-soon-image {
-    background-image: url("https://img3.hulu.com/user/v3/artwork/9c91ffa3-dc20-48bf-8bc5-692e37c76d88?base_image_bucket_name=image_manager&base_image=747157b1-4581-414a-959f-c4956ebc3349&size=1200x630&format=jpeg");  
+    background-image:linear-gradient(rgba(122, 118, 118, 0.5), rgba(54, 53, 53, 0.5)),  url("https://img3.hulu.com/user/v3/artwork/9c91ffa3-dc20-48bf-8bc5-692e37c76d88?base_image_bucket_name=image_manager&base_image=747157b1-4581-414a-959f-c4956ebc3349&size=1200x630&format=jpeg");  
     height: 80%;
     width: 100%;
     background-position: center;
@@ -43,12 +43,22 @@ display:block;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+     } 
+   
+    div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+
   }
 
   img {
     max-width: 100%;
   
 }
+  
+
 .main-container image :hover {
     color: #686868;
   }
